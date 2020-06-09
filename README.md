@@ -11,21 +11,28 @@ Apps Made by Cường241298
 - Tính năng tải nhạc online và nghe nhạc offline từ kho âm nhạc (API).
 - Tính năng hẹn giờ phát (tắt) nhạc
 - Tính năng nghe nhạc dưới nền thiết bị
-
+- Tính năng đánh giá bài hát
 # Yêu cầu
 - Mỗi người upload 10 bài hát dạng file mp3 nhạc vào folder data/music
 - Thiết kế layout giao diện - theo như apps đã có - clone apps but crappier
 
 
 # Phân tích thiết kế : Chỉ các lớp đối tượng
+**** Model ****
+
 - User : String name;
          String username;
          String password;
-         ArrayList<id> add_Favorite();
-         
-- Music : int id_music_song();
+- Music : int id_music_song;
           String title;
           String artist_name;
           String lyrics;
+- Comment : int id_comment;
+            Time time;
+            float star;
+            String commt;
+            
+**** View ****
+**** Control ****
           
   
